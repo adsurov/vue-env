@@ -1,15 +1,11 @@
 <script setup>
-
-import HelloWorld from './components/HelloWorld.vue' 
-
+import HelloWorld from "@/components/HelloWorld.vue";
 </script>
 
 <template>
-<Suspense>
-  <main>	
-	<HelloWorld />	
+  <main>
+    <HelloWorld />
   </main>
-</Suspense>
 </template>
 
 <style scoped>
